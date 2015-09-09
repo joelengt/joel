@@ -37,10 +37,12 @@ $(document).ready(function(){
 			$('.nav_movil').removeClass('menu-fixed2');
 		}
 	});
+
 });
 var $form= $('#formulario'),
 	$button= $('#mostrar-form'),
 	$post =$('.item').first();
+
 function mostrarFormulario()
 {
 	$form.slideToggle();
@@ -56,5 +58,4 @@ $haf.on("click",Ocultar);
 function Ocultar(){
 	$form.slideToggle();
 }
-
 
